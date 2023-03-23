@@ -21,6 +21,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(3,auto);
+    margin-top: 150px;
 
 }
 
@@ -35,6 +36,10 @@ body{
     cursor: pointer;
     font-size: 65px;
     color: red;
+}
+
+footer{
+    margin-top: auto;
 }
 
 #status{
